@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<title>Chandini</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+</style>
+<body class="w3-black">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner -->
+  <img src="https://lh3.googleusercontent.com/IjdckNI9db-cZQ7ctimNemy0LPN4KjZ6Qm-LWM7rAkjktrCvekz5hvBkOzXSEHwJlskoAamTl5UIgSK3gAphTDHx2YXi0aPtde_v8En0SqzmfLfCWQACvvNmurpdm-irZeIuh99rtMLPN6GaRMdmj2P-RhwGFtm0NGeYbFNoJfrfTG1RLaYssmITpduTLAAaIT1Uk6HrDzHQ4nRUlOPljxyqL1LLlgLOJY9IIWu_yhs0lyPPMlUqAAynU0ck9ti_dbO5Ww4FY636ENpfG7DazblhfampE5vy2LfWaBleZki1dW1pqC_3FNO84WKIhUNtfDMRtTZw8GCVKXGREAJI9aQM34AziidjfQ7ItphRyEWwxNR0UodK1zV81ltdtdQxUK0sefLl9jRKpRiBofUGs9EvAcNdnKMQ08WuDpV-i9zDTEBJwavvDi_UU4R2z5Ag4a5GuuLhvbrebdQPMucYdSYm093_Hjp-fkfZ7kK4beebBZ5YtRG9QZ2iIH_yt-FvPT6waJcwo1U2hBd42Kiaj_izzMbUG-6lFIjx62xg8LOqJm9lttgV_q68DElwjxSeTSAncjQbBJ_pMi-i6MSVHrHnSVNBM0v_FmJNMnDTQY6sU99nAppP_8o37jGLhNLmEnmYvY9jggsNEdKsNOpjBKfMVtWzkmJEFJ76wy9egL2QODocg0bm9XQC1re2=w352-h625-no?authuser=0" style="width:70%">
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>HOME</p>
+  </a>
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>ABOUT</p>
+  </a>
+  <a href="#certificates" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-eye w3-xxlarge"></i>
+    <p>CERTIFICATES</p>
+  </a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p>CONTACT</p>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+    <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">CERTIFICATES</a>
+    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+  </div>
+</div>
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+    <h1 class="w3-jumbo"><span class="w3-hide-small">I'm</span> Chandini </h1>
+    <h1>Independent Girl</h1>
+    <img src="https://lh3.googleusercontent.com/5Yly2SGa5VviqbO2BADLd_hqi5NqTSX9zWNtFBVwEesKeb5n_Q1aNRrcQeY79unZgHrsaKKMoPwClYX2QPXB5mNmoxZsv63yxzurCAcTcxAOrtE355unhf_TV5BDt2y4w_RhXdyhnIaD-CtPzHK67OcoqydQJ9lnxTCPMaSniUIHxVz5RZ6q1D04NtpYoJcI3bWJPKkYboE15xoug6U603JZEdXBoOykAn1FNySN8D8a3oWHhFBwwfoGy662AThXz8Uod9BGUBJFqCrC4AZDRl_0QrtK93Caxy6A9Um9NokSh54DSoL6pk7C0AN7U4rLtVsgnK4cha84bNvxrW_Du75c300n10NBZjhxRL00llIgrCPfxVf1EVkW5xb5UZOdQrdw6VEhviuld6-k__nYmH6LX9GJkQR8fRzVC74rZU8AjuVtAaKwyNZL8c-VH8y1JBldi7FoTclWpOlmBt5Wakc-FxfwEJMKecjAHaBgVWFezVJR_aVPTTNMqkmZx09XgdQxS5kdUUFgGskPJutxrlEL7mz4CkwvpkURhD6vG6aB2Py_XY6EQRmKm5D6Eh6Xix4lXpW66h54WOyaqrc7Zmlyu2_1_j7TRhCQ8mlpBFgUMf6Orvm_CL9Udjucq-nRQ6Kl5aLp5zxdkWmwGFPCDAb1DOQWDOQtaE5dfuVSOJns40C0mH0WffbMqUla=w327-h625-no?authuser=0" alt="boy" class="w3-image" width="992" height="1108">
+  </header>
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+    <h2 class="w3-text-light-grey">ABOUT ME </h2>
+    <hr style="width:200px" class="w3-opacity">
+    <p>This is U.Chandini .  . At present I am pursuing bsc computer science at Vijayam degree college and I completed my schooling  with  8.5 GPA in kastruba school then my Intermediate gone through R.K vidyalaya and completed with  9.3 GPA.On this process of my graduation I'm learning many new skills....And I wanted to see myself as a high efficient developer.</p>
+    <h3 class="w3-padding-16 w3-text-light-grey">My Skills</h3>
+    <p class="w3-wide">Web Designing</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:85%"></div>
+    </div>
+    <p class="w3-wide">C and C++</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:85%"></div>
+    </div>
+    <p class="w3-wide"><p>Photo Shop</p></p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:55%"></div>
+    </div><br>
+    <p class="w3-wide">Blog Writing</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:50%"></div>
+    </div>
+    
+    
+
+    <button class="w3-button w3-light-grey w3-padding-large w3-section">
+      <i class="fa fa-download"></i> Download Resume
+    </button>
+    
+    
+    <!-- Testimonials -->
+    <h3 class="w3-padding-24 w3-text-light-grey">MY HOBBIES</h3>  
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTTcB6NFIXTKOpuGaFQkuJugSp46lPg2KFZuQ&usqp=CAU" alt="Browsing Internet" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-margin-right"></span>Browsing Internet:</p>
+    <p>As The Web is essentially a publishing medium that shares characteristics with more traditional publishing media.I'm much intrested in adapting knowledge.</p><br>
+    
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSVtoAOO7V9loHvMzMBbVJagV17Sl-Rv78_RQ&usqp=CAU" alt="Walking" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-margin-right"></span> Walking:</p>
+    <p> I go through a walk which makes relax and shut down all the stress.My Day Never Ends without A Evening Walk.</p>
+     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRZscR7pw36pgPp_DohGAkcY6Am5hbyxq751w&usqp=CAU" alt="Listening Music" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-margin-right"></span>Listening Music:</p>
+    <p>Since I was Addicted to listen Music from my childhood, I hope that music can buoy our mood and fend off depression. It can also improve blood flow in ways similar to statins, lower your levels of stress-related hormones. Listening to music before an operation can even improve post-surgery outcomes.</p><br>
+    
+  <!-- End About Section -->
+  </div>
+  
+  <!-- Portfolio Section -->
+  <div class="w3-padding-64 w3-content" id="certificates">
+    <h2 class="w3-text-light-grey">My Certificates</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <!-- Grid for photos -->
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half">
+        <img src="c 1.PNG" style="width:100%">
+        <img src="c2.JPG" style="width:100%">
+        <img src="c3.JPG" style="width:100%">
+        <img src="c4.JPG" style="width:100%">
+        <img src="c6.JPG" style="width:100%">
+        <img src="c7.JPG" style="width:100%">
+        <img src="c8.JPG" style="width:100%">
+      </div>
+
+    <!-- End photo grid -->
+    </div>
+  <!-- End Portfolio Section -->
+  </div>
+
+  <!-- Contact Section -->
+  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+    <h2 class="w3-text-light-grey">Contact Me</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <div class="w3-section">
+      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Chittoor,Andhra Pradesh</p>
+      <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: +91 9133995512</p>
+      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email:udayakumarchandini2608@gmail.com</p>
+    </div><br>
+    <p>Let's get in touch. Send me a message:</p>
+
+    <form action="/action_page.php" target="_blank">
+   
+      <p>
+      <a href="https://surveyheart.com/form/5f14797cd1b29a317aa16d6a"> <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+          <i class="fa fa-paper-plane"></i> CLICK HERE
+        </button></a> 
+      </p>
+    </form>
+  <!-- End Contact Section -->
+  </div>
+    <div class="w3-third">
+        <h3>BLOG POSTS</h3>
+        <ul class="w3-ul">
+          <li class="w3-padding-16 w3-hover-black">
+            <a href="https://link.medium.com/N5e5o1WId8">
+             <img src="https://lh3.googleusercontent.com/IjdckNI9db-cZQ7ctimNemy0LPN4KjZ6Qm-LWM7rAkjktrCvekz5hvBkOzXSEHwJlskoAamTl5UIgSK3gAphTDHx2YXi0aPtde_v8En0SqzmfLfCWQACvvNmurpdm-irZeIuh99rtMLPN6GaRMdmj2P-RhwGFtm0NGeYbFNoJfrfTG1RLaYssmITpduTLAAaIT1Uk6HrDzHQ4nRUlOPljxyqL1LLlgLOJY9IIWu_yhs0lyPPMlUqAAynU0ck9ti_dbO5Ww4FY636ENpfG7DazblhfampE5vy2LfWaBleZki1dW1pqC_3FNO84WKIhUNtfDMRtTZw8GCVKXGREAJI9aQM34AziidjfQ7ItphRyEWwxNR0UodK1zV81ltdtdQxUK0sefLl9jRKpRiBofUGs9EvAcNdnKMQ08WuDpV-i9zDTEBJwavvDi_UU4R2z5Ag4a5GuuLhvbrebdQPMucYdSYm093_Hjp-fkfZ7kK4beebBZ5YtRG9QZ2iIH_yt-FvPT6waJcwo1U2hBd42Kiaj_izzMbUG-6lFIjx62xg8LOqJm9lttgV_q68DElwjxSeTSAncjQbBJ_pMi-i6MSVHrHnSVNBM0v_FmJNMnDTQY6sU99nAppP_8o37jGLhNLmEnmYvY9jggsNEdKsNOpjBKfMVtWzkmJEFJ76wy9egL2QODocg0bm9XQC1re2=w352-h625-no?authuser=0" class="w3-left w3-margin-right" style="width:50px"></a><br>
+            <span class="w3-large">UdayaKumarChandini</span><br>
+            <span>My blog</span>
+          </li>
+          <li class="w3-padding-16 w3-hover-black">
+            <a href=" https://link.medium.com/dUDmt1RId8">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQfe6obj-NhNkGEyb_kV36G8wwI2V-RTn8HiQ&usqp=CAU" class="w3-left w3-margin-right" style="width:80px"></a><br>
+              <span class="w3-large">Shin Chan </span><br>
+              <span>My favourite cartoon</span>
+          </li> 
+        </ul>
+      </div>
+  
+    <!-- Footer -->
+  <a href="https://instagram.com/udayakumarchand?igshid=a3h0aaqcc75t"><img src="https://img.icons8.com/cotton/2x/instagram-new.png"></a>
+  <a href="https://www.facebook.com/udayakumar.chandini.7"><img src="https://img.icons8.com/nolan/2x/facebook.png"></a>
+  <a href="https://twitter.com/Chandin66665642?s=08"><img src="https://img.icons8.com/officel/2x/twitter.png"></a>
+  <a href="https://www.linkedin.com/in/u-chandini-61a1361b0"><img src="https://img.icons8.com/cute-clipart/72/linkedin.png"></a>
+  
+
+<!-- END PAGE CONTENT -->
+</div>
+
+</body>
+</html>
